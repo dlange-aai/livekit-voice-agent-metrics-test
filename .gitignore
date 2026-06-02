@@ -1,0 +1,12 @@
+# Secrets — never commit (commit .env.example instead)
+.env
+
+# uv / virtualenv
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# macOS
+.DS_Store

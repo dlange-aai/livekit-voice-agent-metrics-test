@@ -1,0 +1,9 @@
+[project]
+name = "livekit-voice-agent-metrics-test"
+version = "0.1.0"
+description = "Real-room LiveKit voice agent that captures EOU/STT/LLM/TTS metrics in the LiveKit Cloud Agent insights dashboard."
+requires-python = ">=3.10"
+dependencies = [
+    "livekit-agents[anthropic,assemblyai,cartesia,silero,turn-detector]~=1.5",
+    "python-dotenv>=1.0",
+]
